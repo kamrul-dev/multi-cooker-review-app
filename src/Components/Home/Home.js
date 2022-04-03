@@ -21,7 +21,7 @@ const Home = () => {
         <>
             <Banner></Banner>
             <div className='container mx-auto mb-5'>
-                <h2 className='text-center mt-4 mb-5' style={{ color: '#32a6a8' }}>Reviews By Our Customer</h2>
+                <h2 className='text-center mt-4 mb-5' style={{ color: '#1DACBF' }}>Reviews By Our Customer</h2>
                 <div className='row'>
                     {
                         cutomerReviews.map(cutomerReview => <Reviews
