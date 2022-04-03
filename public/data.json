@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "Will Jenifer",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/reviews-data/main/images/girls1.jpg",
+        "ratings": 5,
+        "post": "Great looking and functioning multi-cooker."
+    },
+    {
+        "id": 2,
+        "name": "Shall Lawrence",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/reviews-data/main/images/girls2.jpg",
+        "ratings": 5,
+        "post": "Nice, It warm in case of extra frolicking. Has a sort of al dente texture-some chewy."
+
+    },
+    {
+        "id": 3,
+        "name": "Emily Watson",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/reviews-data/main/images/girls3.jpg",
+        "ratings": 5,
+        "post": "I love my multi-cooker!!! This product is amazing, it has so many cooking options, and is very easy to use."
+    },
+    {
+        "id": 4,
+        "name": "Elina Mt",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/reviews-data/main/images/girls4.jpg",
+        "ratings": 5,
+        "post": "Quality product with clear and easy to use controls. I expect it will last a long time. Maintains temperature precisely."
+    },
+    {
+        "id": 5,
+        "name": "Ema Watson",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/reviews-data/main/images/girls5.jpg",
+        "ratings": 5,
+        "post": "I am very pleased with the multi-cooker. I've made yogurt, risotto, soup, chili con carne, stew, sauteed chicken and rice so far."
+    },
+    {
+        "id": 6,
+        "name": "Mila Kunis",
+        "image": "https://raw.githubusercontent.com/kamrul-dev/reviews-data/main/images/girls6.jpg",
+        "ratings": 5,
+        "post": "So happy I purchased the multi-cooker..fits in with all my other KitchenAid small appliances."
+    }
+]
