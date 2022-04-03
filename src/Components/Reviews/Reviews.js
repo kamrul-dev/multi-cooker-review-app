@@ -1,8 +1,8 @@
 import React from 'react';
 import './Reviews.css';
 
-const Reviews = ({ review }) => {
-    const { image, ratings, name, post } = review;
+const Reviews = ({ cutomerReview }) => {
+    const { image, ratings, name, post } = cutomerReview;
     return (
         <div className='col-md-4'>
             <div className='card d-flex align-items-center reviews-section border-0'>

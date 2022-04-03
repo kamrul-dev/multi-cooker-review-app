@@ -7,7 +7,12 @@ import './Home.css';
 const Home = () => {
 
     const [reviews, setReviews] = useReviews();
-
+ 
+    const cutomerReviews = reviews.length > 3 ? reviews.slice(0, 3): reviews;
+    // if(reviews.length > 3){
+    //    const customerReviews = reviews.slice(0, 3)
+    //     console.log(customerReviews)
+    // }
     return (
         <>
             <Banner></Banner>
@@ -15,9 +20,9 @@ const Home = () => {
                 <h2 className='text-center mt-4 mb-5' style={{color:'#32a6a8'}}>Reviews By Our Customer</h2>
                 <div className='row'>
                     {
-                        reviews.map(review => <Reviews
-                            key={review.id}
-                            review={review}
+                        cutomerReviews.map(cutomerReview => <Reviews
+                            key={cutomerReview.id}
+                            cutomerReview={cutomerReview}
                         ></Reviews>)
                     }
                 </div>
