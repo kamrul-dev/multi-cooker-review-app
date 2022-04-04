@@ -6,7 +6,6 @@ const useChart = () => {
         fetch('chartdata.json')
             .then(res => res.json())
             .then(data => setDataCharts(data));
-
     }, []);
 
     return [dataCharts, setDataCharts];
