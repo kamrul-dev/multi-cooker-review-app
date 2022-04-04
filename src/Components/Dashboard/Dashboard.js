@@ -1,10 +1,19 @@
-import React from 'react';
-import './Dashboard.css';
+import useChart from "../../hooks/useChart";
+import DataChart from "../DataChart/DataChart";
+
+
 
 const Dashboard = () => {
+    const [dataCharts, setDataCharts] = useChart();
+
     return (
         <div>
-            <h2>This is Dashboard</h2>
+            {
+                dataCharts.map(dataChart => <DataChart
+                    key={dataChart.id}
+                    dataChart={dataChart}    
+                ></DataChart>)
+            }
         </div>
     );
 };
