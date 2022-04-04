@@ -7,8 +7,8 @@ const Dashboard = () => {
     return (
         <>
             <div className='row container mx-auto'>
-                <div className='col-md-6'>
-                    <h4 className='text-center mt-5 mb-4'>MONTH WISE SELL</h4>
+                <div className='col-md-6 p-2'>
+                    <h4 className='text-center mt-5 mb-4' style={{color:'#1DACBF'}}>MONTH WISE SELL</h4>
                     <LineChart width={500} height={300} data={chartDatas}>
                         <Line dataKey={'price'}></Line>
                         <Line dataKey={'sell'}></Line>
@@ -17,8 +17,8 @@ const Dashboard = () => {
                         <Tooltip></Tooltip>
                     </LineChart>
                 </div>
-                <div className='col-md-6'>
-                    <h4 className='text-center mt-5 mb-4'>INVESTMENT VS REVENUE</h4>
+                <div className='col-md-6 p-2'>
+                    <h4 className='text-center mt-5 mb-4' style={{color:'#1DACBF'}}>INVESTMENT VS REVENUE</h4>
                     <AreaChart width={600} height={300} data={chartDatas}
                         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                         <defs>
