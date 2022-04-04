@@ -1,7 +1,16 @@
 .navbar-item{
-    background-color: #1DACBF;
+    /* background-color: #1DACBF; */
     height: 80px;
     text-align: center;
     display: flex;
     align-items: center;
+}
+.navbar-items-color{
+    color: #1DACBF;
+    border-bottom: 1px solid gainsboro;
+}
+
+.navbar-items-active-color{
+    color: rgb(3, 230, 230);
+    border-bottom: 2px solid rgb(3, 230, 230);
 }
