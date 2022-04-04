@@ -19,7 +19,7 @@ const Dashboard = () => {
                 </div>
                 <div className='col-md-6'>
                     <h4 className='text-center mt-5 mb-4'>INVESTMENT VS REVENUE</h4>
-                    <AreaChart width={500} height={300} data={chartDatas}
+                    <AreaChart width={600} height={300} data={chartDatas}
                         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                         <defs>
                             <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
