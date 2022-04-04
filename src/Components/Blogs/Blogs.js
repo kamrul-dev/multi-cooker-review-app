@@ -24,6 +24,23 @@ const Blogs = () => {
                     <li><strong>footer:</strong> footer for a document.</li>
                 </article>
             </div>
+            <div className='col-md-12'>
+                <article>
+                    <h4 className='mt-4' style={{ color: '#1DACBF' }}>Difference between inline, block and inline-block elements.
+                    </h4>
+                    <p></p>
+                    <strong>Inline:</strong>
+                    <li>No width and height</li>
+                    <li>No margin top and bottom</li>
+                    <li>I has only margin left and margin right</li>
+                    <strong>Block:</strong>
+                    <li>I has width and height</li>
+                    <li>It has margin</li>
+                    <li>If we force, it can be behave as inline elements</li>
+                    <strong>Inline-Block:</strong>
+                    <li>Used for creating inline elements to block elements</li>
+                </article>
+            </div>
         </div>
     );
 };
