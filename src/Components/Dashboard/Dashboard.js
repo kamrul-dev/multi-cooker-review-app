@@ -1,4 +1,4 @@
-import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 import useChart from '../../hooks/useChart';
 
 const Dashboard = () => {
@@ -54,7 +54,13 @@ const Dashboard = () => {
                     </BarChart>
                 </div>
                 <div className='col-md-6 p-2'>
+                <h4 className='text-center mt-5 mb-4' style={{ color: '#1DACBF' }}>INVESTMENT VS REVENUE</h4>
+                    <PieChart width={730} height={250}>
+                        <Pie data={chartDatas} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
+                        <Pie data={chartDatas} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
 
+                        <Tooltip></Tooltip>
+                    </PieChart>
                 </div>
             </div>
         </>

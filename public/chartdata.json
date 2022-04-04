@@ -1,6 +1,7 @@
 [
     {   
         "id": 1,
+        "name": "Group A",
         "month": "Mar",
         "investment": 100000,
         "sell": 5000,
@@ -8,6 +9,7 @@
     },
     {   
         "id": 2,
+        "name": "Group B",
         "month": "Apr",
         "investment": 200000,
         "sell": 6000,
@@ -15,6 +17,7 @@
     },
     {   
         "id": 3,
+        "name": "Group C",
         "month": "May",
         "investment": 500000,
         "sell": 7000,
@@ -22,6 +25,7 @@
     },
     {
         "id": 4,
+        "name": "Group D",
         "month": "Jun",
         "investment": 500000,
         "sell": 10000,
@@ -29,6 +33,7 @@
     },
     {
         "id": 5,
+        "name": "Group E",
         "month": "Jul",
         "investment": 600000,
         "sell": 15000,
@@ -36,6 +41,7 @@
     },
     {   
         "id": 6,
+        "name": "Group F",
         "month": "Aug",
         "investment": 700000,
         "sell": 10000,
